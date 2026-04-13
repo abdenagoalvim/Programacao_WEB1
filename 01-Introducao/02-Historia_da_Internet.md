@@ -1,7 +1,5 @@
 # História da Internet
 
-Prof. Abdenago Alvim
-
 A internet surgiu no final dos anos 1960, nos Estados Unidos, como a **ARPANET**, uma rede militar e acadêmica criada pela DARPA durante a Guerra Fria para garantir comunicação descentralizada. Evoluiu na década de 1980 com o protocolo TCP/IP, tornando-se pública e comercial nos anos 1990 com a World Wide Web (WWW) de Tim Berners-Lee. 
 
 ## Marcos Principais na História da Internet:
