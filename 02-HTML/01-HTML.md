@@ -58,7 +58,7 @@ Um arquivo HTML segue uma estrutura padrão que define como uma página web deve
 
     `<header> </header>`
 
-    A tag `<header>` representa o cabeçalho da página, geralmente onde ficam o logotipo, o menu de navegação ou o nome do site.
+    A tag `<header>` representa o cabeçalho do documento, geralmente onde ficam o logotipo, o menu de navegação ou o nome do site.
 
     **Rodapé**
 
