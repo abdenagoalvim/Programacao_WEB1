@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>PWEB - HTML</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <a href="index.html">PWEB</a>
+            </div>
+            <nav>
+            <ul>
+                <li><a href="introducao.html">Introdução</a></li>
+                <li><a href="html.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="js.html">JavaScript</a></li>
+            </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>PWEB - HTML (HyperText Markup Language)</h1>
+            <p>A linguagem <strong>HTML (Linguagem de Marcação de Hipertexto)</strong> é a base estrutural da web. Seu principal objetivo é organizar e estruturar conteúdos como textos, imagens, links, tabelas, vídeos e outros elementos que compõem as páginas de um site.</p>
+            <p>O HTML não é uma linguagem de programação, mas sim de marcação, pois utiliza tags (etiquetas) para indicar ao navegador como o conteúdo deve ser exibido. Essas tags atuam como instruções que definem títulos, parágrafos, listas, links, seções, formulários e muito mais.</p>
+            <p>Com o crescimento da internet e a popularização dos dispositivos digitais, o HTML passou a ser uma ferramenta essencial para o desenvolvimento de interfaces digitais acessíveis, organizadas e compatíveis com diversos navegadores e plataformas. Sua evolução ao longo dos anos, com versões mais modernas como o HTML5, tornou possível incorporar recursos multimídia, sem depender de plugins externos.</p>
+            <p>Assim, o HTML desempenha um papel fundamental na experiência do usuário na web, sendo amplamente utilizado em conjunto com CSS (para o estilo visual) e JavaScript (para interatividade), formando o tripé básico do desenvolvimento front-end.</p>
+            <h2>Estrutura Básica</h2>
+            <p>Um arquivo HTML segue uma estrutura padrão que define como uma página web deve ser organizada e interpretada pelos navegadores. Vamos entender cada parte do exemplo:</p>
+            <img src="imagens/estrutura_basica_HTML.png" alt="estrutura básica de um arquivo HTML">
+            <ol>
+                <li>Declaração do tipo de documento.</li>
+                <code>&lt;!DOCTYPE html&gt;</code>
+                <p>Indica ao navegador que este é um documento HTML5, a versão mais atual da linguagem. É obrigatório no início do código.</p>
+                <li>Tag raiz do documento.</li>
+                <code>&lt;html lang="pt-BR"&gt; ... &lt;/html&gt;</code>
+                <p>Abrange todo o conteúdo da página. O atributo <code>lang="pt-BR"</code> informa que o conteúdo está em português do Brasil, o que ajuda na acessibilidade e em ferramentas de busca.</p>
+                <li>Cabeçalho da Página</li>
+                <code>&lt;head&gt; ... &lt;/head&gt;</code>
+                <p>Contém informações de configuração que não aparecem visualmente no site, mas são fundamentais para o funcionamento e interpretação da página.</p>
+                <code>&lt;meta charset="UTF-8"&gt;</code>
+                <p>Define o conjunto de caracteres usado na página (UTF-8, que suporta acentuação e símbolos especiais).</p>
+                <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code>
+                <p>Torna o site responsivo, ou seja, adaptável a diferentes tamanhos de tela (celular, tablet, etc.).</p>
+                <code>&lt;link rel="stylesheet" type="text/css" href="style.css"&gt;</code>
+                <p>Faz a ligação com o arquivo externo de CSS, responsável pelo estilo visual da página (cores, fontes, tamanhos etc.).</p>
+                <code>&lt;title&gt; Meu Site em HTML &lt;/title&gt;</code>
+                <p>Define o título da página, que aparece na aba do navegador.</p>
+                <li>Corpo da página</li>
+                <code>&lt;body&gt; ... &lt;/body&gt;</code>
+                <p>É onde está o conteúdo visível ao usuário (textos, imagens, menus, rodapés, etc.).</p>
+                <p><strong>Cabeçalho</strong></p>
+                <code>&lt;header&gt; ... &lt;/header&gt;</code>
+                <p>A tag <code>&lt;header&gt;</code> representa o cabeçalho do documento, geralmente onde ficam o logotipo, o menu de navegação ou o nome do site.</p>
+                <p><strong>Rodapé</strong></p>
+                <code>&lt;footer&gt; &lt;/footer&gt;</code>
+                <p>A tag <code>&lt;footer&gt;</code> representa o rodapé, onde normalmente ficam informações de contato, direitos autorais, redes sociais ou links importantes.</p>
+            </ol>
+        </main>
+        <footer>
+            <div>
+                Prof. Abdenago Alvim
+            </div>
+            <div>
+                &copy; Todos os direitos reservados - 2026
+            </div>
+        </footer>        
+    </body>
+</html>
