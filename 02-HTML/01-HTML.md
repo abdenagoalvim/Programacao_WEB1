@@ -66,14 +66,17 @@ Um arquivo HTML segue uma estrutura padrão que define como uma página web deve
 
     A tag `<footer>` representa o rodapé, onde normalmente ficam informações de contato, direitos autorais, redes sociais ou links importantes.
 
-    **Área Principal**
+   **Área Principal**
 
    `<main> </main>`
 
    A tag `<main>` define o conteúdo principal de um documento, focando no tema central da página. Semanticamente, essa tag indica aos motores de busca e tecnologias assistidas (leitores de tela) a principal área da página.
 
     **Títulos do conteúdo**
+
     `<h1> </h1>` a `<h6> </h6>`
+
    Os títulos do corpo de uma página são definidos pelas tags de `<h1>` a `<h6>`. São utilizadas para definir uma hierarquia de títulos do conteúdo, do `<h1>` (mais importante) até o `<h6>` (menos importante), definindo a estrutura lógica da página. São essenciais para SEO. Deve-se usar apenas um `<h1>`por página.
 
     
+
