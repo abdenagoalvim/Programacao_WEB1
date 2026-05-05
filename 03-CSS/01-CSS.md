@@ -10,7 +10,7 @@ Principais responsabilidades das CSS:
 - **Responsividade:** Adaptar a página WEB para diferentes tamanhos de tela (desktop, celular, tablet...).
 - **Separação de Conteúdo e Design:** Manter o HTML limpo a partir do gerenciamento de estilos em um arquivo (`.css`) separado, facilitando a manutenção.
 
-## Estrutura Básica do CSS
+## Estrutura Bá do CSS
 
 Uma regra CSS é composta por:
 
