@@ -148,3 +148,22 @@ As tags estilísticas só devem ser usadas quando o objetivo é apenas mudar a a
 <u>Texto sublinhado</u><br>
 <s>Texto tachado</s>
 ```
+
+## Tags Semânticas
+
+As tags semânticas dizem ao navegador e aos motores de busca (SEO) que o texto tem uma importância específica, e não simplesmente uma aparência visual.
+
+- `<strong>`: Indica uma forte importância, seriedade ou urgência. Possui, por padrão, uma visualização em negrito. Usado em: avisos, palavras-chave principais, texto de extrema importância.
+- `<em>`: Indica ênfase no texto, alterando o sentido da frase quando lido em voz alta (em leitores de tela). Possui, por parão, uma visualização em itálico. Usado quando palavras precisam de "ênfase" na pronúncia.
+
+**Exemplo:**
+```html
+<p><strong>Frase com alta importância</strong></p>
+<p>Palavra com <em>ênfase</em> na leitura</p>
+```
+
+## Tags Estilísticas vs Tags Semânticas (Melhores Práticas)
+
+1. **Priorize Semântica:** Use `<strong>`e `<em>` no lugar de `<b>` e `<i>` sempre que o texto exigir. Isso melhora o SEO e a acessibilidade.
+2. **CSS para Estilo:** Se a intenção for apenas visual, use estilização com uma classe CSS.
+3. **Acessbilidade:** Leitores de tela podem ler `<strong` e `<em>` com tom de voz diferenciado, enquanto `<b>` e `<i>`são ignorados semânticamente.
