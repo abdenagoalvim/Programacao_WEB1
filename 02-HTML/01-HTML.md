@@ -132,4 +132,13 @@ Belo Horizonte - MG
 </p>
 ```
 
+## Tags Estilísticas (negrito, itálico, sublinhado)
+
+As tags estilísticas só devem ser usadas quando o objetivo é apenas mudar a aparência do texto (negrito, itálico, sublinhado), sem adicionar valor semântico.
+
+- `<b>` **(Bold - negrigo)**: Destaca o testo em negrito, sem dar destaque de importância. Pode ser usado em palavras-chave, nomes de produto, rótulos...
+- `<i>` **(Italic - itálico)**: Exibe o texto em itálico. Usado em termos técnicos, palavras em outro idioma, nomes nativos, pensamentos...
+- `<u>` **(Underline - sublinhado)**: Exibe o texto sublinhado. Usado para destacar erros ortográficos ou marcações específicas.
+- `<s>` **(Strikethrough - tachado)**: Coloca um risco sobre o texto (tachado), indicando conteúdo que não é mais preciso ou relevante. Usado para mostrar preços antigos em promoção.
+
 
