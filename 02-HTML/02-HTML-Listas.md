@@ -52,3 +52,23 @@ O tipo de numeração pode ser alterado usando o atributo `type` com um dos segu
   <li>Tópico b</li>
 </ol>
 ```
+
+## Lista de Definição (`<dl>`)
+
+Usada para apresentar uma lista de termos e suas definições.
+
+- `<dl>` - define o contêiner que organiza a lista.
+- `<dt>` - define um termo da lista.
+- `<dd>` - define a descrição do termo.
+
+**Exemplo:**
+
+```html
+<dl>
+  <dt>HTML</dt>
+  <dd>Linguagem de marcação usada para definir a estrutura de uma página WEB.</dd>
+
+  <dt>CSS</dt>
+  <dd>Linguagem usada para estilizar páginas WEB.</dd>
+</dl>
+```
