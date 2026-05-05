@@ -70,13 +70,66 @@ Um arquivo HTML segue uma estrutura padrão que define como uma página web deve
 
    `<main> </main>`
 
+   Essa tag não está presente na imagem anterior, mas costuma ser incluída entre as tags `<header>` e `<footer>`.
+
    A tag `<main>` define o conteúdo principal de um documento, focando no tema central da página. Semanticamente, essa tag indica aos motores de busca e tecnologias assistidas (leitores de tela) a principal área da página.
 
-    **Títulos do conteúdo**
+## Tags Básicas (Títulos, Parágravos e quebras de linha)
 
-    `<h1> </h1>` a `<h6> </h6>`
+### Títulos
 
-   Os títulos do corpo de uma página são definidos pelas tags de `<h1>` a `<h6>`. São utilizadas para definir uma hierarquia de títulos do conteúdo, do `<h1>` (mais importante) até o `<h6>` (menos importante), definindo a estrutura lógica da página. São essenciais para SEO. Deve-se usar apenas um `<h1>`por página.
+`<h1> </h1>` a `<h6> </h6>`
 
-    
+Os títulos do corpo de uma página são definidos pelas tags de `<h1>` a `<h6>`. São utilizadas para definir uma hierarquia de títulos do conteúdo, do `<h1>` (mais importante) até o `<h6>` (menos importante), definindo a estrutura lógica da página. São essenciais para SEO. Deve-se usar apenas um `<h1>`por página.
+
+**Exemplo:**
+```html
+<h1>Título de nível 1</h1>
+<h2>Título de nível 2</h2>
+```
+
+### Parágrafos
+
+`<p> </p>`
+
+Os parágrafos, em HTML, são definidos pela tag `<p>`, que representa um bloco de texto, ocupando toda a largura disponível. É uma das estruturas mais básicas e importantes na organização de conteúdos em uma página WEB.
+
+Por padrão, cada parágrafo ocupa um espaço antes e depois do texto, separando-o dos outros elementos adjacentes.
+
+**Exemplo:**
+```html
+<p>Primeiro parágrafo</p>
+<p>Segundo parágrafo</p>
+```
+
+### Quebras de linha
+
+`<br>`
+
+A tag `<br>` insere uma quebra de linha no texto sem criar um novo parágrafo. Essa tag é chamada de **tag vazia**, isto é: não precisa de uma tag de fechamento. 
+
+Diferente da tag `<p>`, a tag `<br>` apenas quebra a linha, não adicionando um espaçamento vertical significativo.
+
+**Boas práticas**
+- Não use a tag `<br>` para criar espaçamento entre elementos (use o CSS para esse objetivo). 
+- Use apenas quando fizer sentido semântico.
+- Use CSS (`margin`, `padding`) para controlar o espaçamento.
+
+`<hr>`
+
+A tag `<hr>` é usada para criar uma linha horizontal indicando uma separação temática entre conteúdos. Como a tag `<br>` é uma **tag vazia**, não possuindo um conteúdo interno nem uma tag de fechamento.
+
+Por padrão, essa tag ocupa toda a largura disponível.
+
+**Exemplo:**
+```html
+<p>
+Endereço:
+<hr>
+Rua Principal, 250<br>
+Centro<br>
+Belo Horizonte - MG
+</p>
+```
+
 
