@@ -17,4 +17,3 @@ Uma regra CSS é composta por:
 - **Seletor:** indica qual elemento será estilizado.
 - **Propriedade:** determina o aspecto que será alterado.
 - **Valor:** a definição da propriedade.
-
