@@ -59,7 +59,7 @@ Usada para apresentar uma lista de termos e suas definições.
 
 - `<dl>` - define o contêiner que organiza a lista.
 - `<dt>` - define um termo da lista.
-- `<dd>` - define a descrição do termo.
+- `<dd>` - define a descrição de um termo da lista.
 
 **Exemplo:**
 
