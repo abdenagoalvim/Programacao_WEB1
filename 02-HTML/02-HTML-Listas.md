@@ -72,3 +72,23 @@ Usada para apresentar uma lista de termos e suas definições.
   <dd>Linguagem usada para estilizar páginas WEB.</dd>
 </dl>
 ```
+
+## Listas Aninhadas (lista dentro de lista)
+
+Uma lista pode ser colocada dentro de outra lista, gerando uma hierarquia de listas. Você pode, inclusive, misturar os tipos de listas (por exemplo, colocar uma lista ordenada dentro de uma lista não ordenada).
+
+```html
+<ul>
+  <li>Frutas</li>
+    <ul>
+      <li>Banana</li>
+      <li>Laranja</li>
+      <li>Limão</li>
+    </ul>
+  <li>Verduras</li>
+    <ul>
+      <li>Almeirão</li>
+      <li>Alface</li>
+      <li>Couve</li>
+    </ul>
+</ul>
