@@ -37,7 +37,7 @@ Define o caminho da imagem que será exibida. Pode ser:
 
 ### `alt` (texto alternativo)
 
-Fornece uma descrição da imagem. Esse atributo é essencial para acessibilidade (leitores de tela) e exibição caso a imagem não carregue.
+Fornece uma descrição da imagem. Esse atributo é essencial para acessibilidade (leitores de tela) e exibição de uma descrição da imagem caso ela não carregue.
 
 ### `width` e `height`
 
