@@ -41,7 +41,7 @@ Nesse exemplo, todos os parágrafos (`<p>`) terão texto azul e tamanho 16px.
 
 Existem três formas principais: inline, interno e externo.
 
-### Inline
+### CSS Inline
 
 O CSS é aplicado diretamente dentro da tag HTML, utilizando o atributo `style`.
 
