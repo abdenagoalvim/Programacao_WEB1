@@ -156,3 +156,4 @@ p {
 - Use **CSS Interno** para páginas simples.
 - Prefira sempre o **CSS Externo**, pois é a forma mais profissional e escalável.
 
+## Seletores
