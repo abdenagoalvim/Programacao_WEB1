@@ -29,7 +29,7 @@ No HTML, os **links** são criados com a tag `<a>`, que vem da palavra anchor (�
 
 ### Link externo
 
-Aponta para um site fora do seu projeto (site).
+Aponta para um recurso (página) fora do seu projeto (site).
 
 **Exemplo:**
 
