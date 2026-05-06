@@ -157,3 +157,59 @@ p {
 - Prefira sempre o **CSS Externo**, pois é a forma mais profissional e escalável.
 
 ## Seletores
+
+Os seletores CSS são fundamentais para aplicar estilos aos elementos de uma página HTML. Eles determinam quais elementos serão afetados por determinada regra de estilo. A seguir, você encontrará uma explicação clara e organizada dos principais tipos de seletores: de Elemento (ou tag), de Classe, de ID...
+
+### Tipos de Seletores no CSS
+
+#### Seletor de Elemento (ou Tag)
+
+Seleciona todos os elementos de um determinado tipo.
+
+**Exemplo:**
+
+```css
+p {
+  color: blue;
+}
+```
+
+Aplica a cor azul a todos os parágrafos `<p>`.
+
+#### Seletor de Classe
+
+Seleciona todos os elementos que possuem uma determinada classe, com um atributo `class` específico.
+
+**Exemplo:**<br>
+**HTML**
+```html
+<p class="destaque">Texto destacado</p>
+```
+
+**CSS**
+```css
+.destaque {
+  background-color: yellow;
+}
+```
+
+Aplica a cor de fundo amarela a todos os elementos com a classe `.destaque`.
+
+#### Seletor de ID
+
+Seleciona um elemento específico com base em seu atributo `id`. Deve ser único na página.
+
+**Exemplo:**<br>
+**HTML**
+```html
+<h1 id="titulo">Título Principal</h1>
+```
+
+**CSS**
+```css
+#titulo {
+  font-size: 24px;
+}
+```
+
+Aplica o tamanho de fonte 24px ao elemento com o ID `#titulo`.
