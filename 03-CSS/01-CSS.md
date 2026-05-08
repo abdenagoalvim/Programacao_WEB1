@@ -178,7 +178,7 @@ Aplica a cor azul a todos os parágrafos `<p>`.
 
 #### Seletor de Classe
 
-Seleciona todos os elementos que possuem uma determinada classe, com um atributo `class` específico.
+Seleciona todos os elementos que possuem uma determinada classe (com um atributo `class` específico).
 
 **Exemplo:**<br>
 **HTML**
