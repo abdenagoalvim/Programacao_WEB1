@@ -37,7 +37,7 @@ p {
 }
 ```
 
-## A propriedade `color`
+### A propriedade `color`
 
 A propriedade `color` é usada para definir a cor do texto.
 
@@ -53,7 +53,7 @@ p{
 
 o texto dos parágrafos serão exibidos em azul.
 
-## A propriedade `background-color`
+### A propriedade `background-color`
 
 A propriedade `background-color` é usada para definir a cor de fundo de um elemento.
 
