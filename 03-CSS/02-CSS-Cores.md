@@ -134,11 +134,11 @@ RGB significa:
 
 ```css
 color: rgb(255, 0, 0); /* vermelho */
-rgb(0, 255, 0)   /* verde */
-rgb(0, 0, 255)   /* azul */
-rgb(255, 255, 0) /* amarelo */
-rgb(0, 0, 0)     /* preto */
-rgb(255, 255, 255) /* branco */
+color: rgb(0, 255, 0)   /* verde */
+color: rgb(0, 0, 255)   /* azul */
+color: rgb(255, 255, 0) /* amarelo */
+color: rgb(0, 0, 0)     /* preto */
+color: rgb(255, 255, 255) /* branco */
 ```
 
 ### Sistema RGBA
