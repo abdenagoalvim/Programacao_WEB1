@@ -158,9 +158,9 @@ background-color: rgba(255, 0, 0, 0.5);
 
 HSL significa:
 
-- H → Hue (matiz/tonalidade) - Representa a medida de um ângulo (0 a 360 graus) apontando para um tom de cor na roda de cores.
-- S → Saturation (saturação) - Representa uma porcentagem (0% a 100%) da saturação. 0% é totalmente cinza e 100% totalmente colorido.
-- L → Lightness (luminosidade) - Representa uma porcentagem (0% a 100%) da luminosidade. 0% sem luminosidade (preto), 50% cor normal (nem escura, nem clara) e 100% luminosidade total (branco).
+- H → **Hue (matiz/tonalidade)** - Representa a medida de um ângulo (0 a 360 graus) apontando para um tom de cor na roda de cores.
+- S → **Saturation (saturação)** - Representa uma porcentagem (0% a 100%) da saturação. 0% é totalmente cinza e 100% totalmente colorido.
+- L → **Lightness (luminosidade)** - Representa uma porcentagem (0% a 100%) da luminosidade. 0% sem luminosidade (preto), 50% cor normal (nem escura, nem clara) e 100% luminosidade total (branco).
 
 **Exemplo:**
 
