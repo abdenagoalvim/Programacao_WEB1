@@ -114,12 +114,12 @@ Os valores variam de `00` (nenhuma intensidade) a `FF` (intensidade total).
 
 **Exemplos:**
 ```css
-color: #FF0000 /* vermelho */
-color: #00FF00 /* verde */
-color: #0000FF /* azul */
-color: #FFFF00 /* amarelo */
-color: #000000 /* preto */
-color: #FFFFFF /* branco */
+color: #FF0000; /* vermelho */
+color: #00FF00; /* verde */
+color: #0000FF; /* azul */
+color: #FFFF00; /* amarelo */
+color: #000000; /* preto */
+color: #FFFFFF; /* branco */
 ```
 
 ### Sistema RGB
@@ -134,11 +134,11 @@ RGB significa:
 
 ```css
 color: rgb(255, 0, 0); /* vermelho */
-color: rgb(0, 255, 0)   /* verde */
-color: rgb(0, 0, 255)   /* azul */
-color: rgb(255, 255, 0) /* amarelo */
-color: rgb(0, 0, 0)     /* preto */
-color: rgb(255, 255, 255) /* branco */
+color: rgb(0, 255, 0);   /* verde */
+color: rgb(0, 0, 255);   /* azul */
+color: rgb(255, 255, 0); /* amarelo */
+color: rgb(0, 0, 0);     /* preto */
+color: rgb(255, 255, 255); /* branco */
 ```
 
 ### Sistema RGBA
