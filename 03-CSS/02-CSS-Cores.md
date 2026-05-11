@@ -1,4 +1,4 @@
-# CSS Trabalhando com cores
+# CSS - Trabalhando com cores
 
 As cores são elementos fundamentais no desenvolvimento de páginas WEB. Elas ajudam a melhorar a aparência visual, organizar informações, destacar conteúdos importantes e tornar a navegação mais agradável para o usuário.
 
