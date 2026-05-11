@@ -98,7 +98,7 @@ p{
 
 As cores hexadecimais são muito utilizadas no desenvolvimento WEB.
 
-A sintaxe utiliza o símbolo # seguido de 6 caracteres.
+A sintaxe utiliza o símbolo `#` seguido de 6 caracteres.
 
 ```css
 #RRGGBB
