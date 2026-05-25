@@ -35,9 +35,7 @@ p {
 
 }
 ```
-**ATENÇAO:**
-
-Você teve ter uma imagem chamada `imagem.jpg` na mesma pasta do arquivo `.html`.
+**ATENÇÃO:** Você teve ter uma imagem chamada `imagem.jpg` na mesma pasta do arquivo `.html`.
 
 ## Como "limpar" o Float (`clear`)
 
