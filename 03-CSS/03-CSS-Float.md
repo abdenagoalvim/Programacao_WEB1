@@ -1,6 +1,6 @@
 # CSS - Propriedade Float
 
-A propriedade `float` no CSS serve para flutuar elementos (como imagens, blocos...) "empurrando-os" para a esquerda ou para a direita, permitindo que outros elementos o contornem (fluam ao seu redor).
+A propriedade `float` no CSS serve para flutuar elementos (como imagens, blocos...) "empurrando-os" para a esquerda ou para a direita, permitindo que outros elementos o contornem (fluam ao seu redor). Em outras palavras, a propriedade `float` retira um elemento do seu fluxo normal colocando-o ao longo do lado esquerdo ou direito do seu container.
 
 ## Valore possíveis para a propriedade `float`
 
@@ -12,7 +12,7 @@ A propriedade `float` no CSS serve para flutuar elementos (como imagens, blocos.
 
 **HTML**
 ```html
-<div class="container">
+<div>
     <img src="imagem.jpg" alt="Exemplo de imagem">
     <p>
         lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
