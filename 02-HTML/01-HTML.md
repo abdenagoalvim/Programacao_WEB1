@@ -74,7 +74,7 @@ Um arquivo HTML segue uma estrutura padrão que define como uma página web deve
 
    A tag `<main>` define o conteúdo principal de um documento, focando no tema central da página. Semanticamente, essa tag indica aos motores de busca e tecnologias assistidas (leitores de tela) a principal área da página.
 
-## Tags Básicas (Títulos, Parágravos e quebras de linha)
+## Tags Básicas (Títulos, Parágrafos e quebras de linha)
 
 ### Títulos
 
