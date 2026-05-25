@@ -27,6 +27,12 @@ A propriedade `float` no CSS serve para flutuar elementos (como imagens, blocos.
 img {
     float: left;
     margin-right: 10px;
+    width: 50%;
+}
+
+p {
+    float: none;
+
 }
 ```
 **ATENÇAO:**
