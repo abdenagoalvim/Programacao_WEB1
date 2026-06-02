@@ -15,7 +15,7 @@ O **Box Model** define a estrutura visual de um elemento HTML. Cada elemento é 
 
 **Representação:**
 
-![Box Model](imagens/box_model.jpg)
+<img src="imagens/box_model.jpg" alt="Box Model" width="330px">
 
 ## Área de Conteúdo (Content)
 
