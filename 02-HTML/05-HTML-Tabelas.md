@@ -36,7 +36,7 @@ Uma tabela em HTML é definida pela tag `<table>`. Dentro dela, utilizamos outra
 </table>
 ```
 
-Esse código gera uma tabela com três colunas (três células em cada linha) e duas linhas de dados.
+Esse código gera uma tabela com três colunas (três células em cada linha), uma linha de títulos das colunas e duas linhas de dados.
 
 Esse exemplo está usando o atributo `border`, com o valor 1, na abertura da tag `table`, definindo uma borda de 1px para a tabela, para que você consiga ver melhor a tabela. Mas, o ideal é definir a borda através do CSS, como será estudado posteriormente.
 
