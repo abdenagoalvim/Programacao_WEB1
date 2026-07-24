@@ -138,7 +138,8 @@ Repare também que, nesse exemplo, a tag `th` está sendo usada como título de 
 
 ## Boas práticas no uso de tabelas
 - Utilize tabelas apenas para dados tabulares (não para layout de páginas)
-- Sempre use <th> para cabeçalhos
-- Inclua <caption> para descrever a tabela
+- Sempre use `<th>` para cabeçalhos
+- Inclua `<caption>` para descrever a tabela
+- Use `<scope>` para definir o escopo de uma célula de cabeçalho
 - Prefira CSS para estilização
 - Mantenha o código organizado e indentado
