@@ -38,6 +38,10 @@ Uma tabela em HTML é definida pela tag `<table>`. Dentro dela, utilizamos outra
 
 Esse código gera uma tabela com três colunas (três células em cada linha), uma linha de títulos das colunas e duas linhas de dados.
 
+**Resultado:**
+
+![tabela com estrutura básica](imagens/tabela-estrutura-basica.jpeg)
+
 Esse exemplo está usando o atributo `border`, com o valor 1, na abertura da tag `table`, definindo uma borda de 1px para a tabela, para que você consiga ver melhor a tabela. Mas, o ideal é definir a borda através do CSS, como será estudado posteriormente.
 
 ## Melhorando a semântica da tabela
@@ -88,6 +92,10 @@ O atributo `colspan` em `<th colspan="2">Média</th>` define que a primeira cél
 
 Você também pode usar o atributo `rowspan` para definir que uma determinada célula ocupe mais de uma linha.
 
+**Resultado:**
+
+![tabela - melhorando a semântica](imagens/tabela-melhorando-semantica.jpeg)
+
 Repare também que, nesse exemplo, a tag `th` está sendo usada como título de colunas (**Nome**, **Curso** e **Nota**), mas também como título de linha (**Média**). Para melhorar a semântica e a acessibilidade isso deverá ser informado, explicitamente, através do atributo `scope`:
 
 - `scope="col"`: Define que o th é o cabeçalho de uma coluna (aplica-se a todas as células abaixo dele).
@@ -123,6 +131,10 @@ Repare também que, nesse exemplo, a tag `th` está sendo usada como título de 
   </tr>
 </table>
 ```
+
+**Resultado:**
+
+![tabela - com títulos de colunas e linhas](imagens/tabela-titulos-colunas-linhas.jpeg)
 
 ## Boas práticas no uso de tabelas
 - Utilize tabelas apenas para dados tabulares (não para layout de páginas)
