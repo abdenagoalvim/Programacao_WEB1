@@ -135,7 +135,7 @@ O método **`POST`** envia os dados no corpo da requisição HTTP.
 
 O método **`POST`** normalmente é utilizado em:
 
-- Cadstro;
+- Cadastro;
 - Login;
 - Envio de informações;
 - Alteração de dados;
@@ -143,4 +143,27 @@ O método **`POST`** normalmente é utilizado em:
 
 **Atenção:** utilizar **`POST`** não significa, por si só, que os dados estão protegidos. Para proteger informações, especialmente senhas, também é necessário utilizar mecanismos como HTTPS e boas práticas de segurança.
 
+## O elemento <label>
+
+O elemento **`<label>`** é utilizado para identificar um campo de formulário.
+
+**Exemplo:**
+
+```html
+<label>Nome:</label>
+<input type="text">
+```
+
+O texto **`Nome:`** informa ao usuário qual informação deve ser digitada.
+
+Uma forma mais completa de utilizar o **`<label>`** é associá-lo diretamente ao campo por meio dos atributos **`for`** e **`id`**.
+
+**Exemplo:**
+
+```html
+<label for="nome">Nome:</label>
+<input type="text" id="nome">
+```
+
+Nesse exemplo **`for="nome"`** está associado a **`id="nome"`**. Essa associação melhora a acessibilidade e facilita a interação com o formulário e é uma prática recomendada.
 
