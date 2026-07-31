@@ -143,7 +143,7 @@ O método **`POST`** normalmente é utilizado em:
 
 **Atenção:** utilizar **`POST`** não significa, por si só, que os dados estão protegidos. Para proteger informações, especialmente senhas, também é necessário utilizar mecanismos como HTTPS e boas práticas de segurança.
 
-## O elemento <label>
+## O elemento `<label>`
 
 O elemento **`<label>`** é utilizado para identificar um campo de formulário.
 
