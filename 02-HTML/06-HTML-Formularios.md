@@ -235,6 +235,8 @@ O elemento **`<input>`** é utilizado para criar diversos tipos de campos de ent
 
 - **Campo obrigatório** - Para definir que um campo é de preenchimento obrigatório, inclua o atributo **`required`**.
 
+- **Valor padrão** - Use o atributo **`value`** para definir um valor padrão para o campo.
+
 ### Exemplos
 
 **Exemplo 1 - Cadastro Geral:**
@@ -322,3 +324,33 @@ O elemento **`<input>`** é utilizado para criar diversos tipos de campos de ent
 
 ![formulário componentes visuais avançados](imagens/form-Componentes-Visuais-Avançados.jpeg)
 
+## O elemento `<textarea>`
+
+O elemento **`<textarea>`** serve para criar uma caixa de texto com várias linhas, ideal para mensagens longas, comentários ou opiniões.
+
+**Exemplo:** 
+
+```html
+<form>
+    <label for="comentario">Digite seu comentário:</label><br>
+
+    <textarea
+        id="comentario"
+        name="comentario"
+        rows="5"
+        cols="40">
+    </textarea>
+</form>
+```
+
+**Resultado:**
+
+![formulário com o elemento textarea](imagens/form-textarea.jpeg)
+
+### Alguns pontos sobre o elemento `<textarea>`
+
+- **Tag de fechamento** - No **`<textarea>`** a tag de fechamento é obrigatória. Usa **`<textarea>`** para abrir e **`</textarea>`** para fechar.
+
+- **Tamanho** - Os atributos **`rows`** (linhas) e **`cols`** (colunas) definem o tamanho inicial da caixa na tela.
+
+- **Nome do campo** - : O atributo **`name`** serve para identificar o dado quando o formulário for enviado para o servidor.
