@@ -165,5 +165,146 @@ Uma forma mais completa de utilizar o **`<label>`** é associá-lo diretamente a
 <input type="text" id="nome">
 ```
 
-Nesse exemplo **`for="nome"`** está associado a **`id="nome"`**. Essa associação melhora a acessibilidade e facilita a interação com o formulário e é uma prática recomendada.
+Nesse exemplo **`for="nome"`** está associado a **`id="nome"`**. Essa associação melhora a acessibilidade, facilita a interação com o formulário e é uma prática recomendada.
+
+## O elemento `<input>`
+
+O elemento **`<input>`** é utilizado para criar diversos tipos de campos de entrada. Sua estrutura básica é:
+
+```html
+<input type="tipo">
+```
+
+### Campos de texto e dados básicos
+
+- **`type = "text"`** - Cria uma linha única para digitar textos gerais, como nome, endereço... (valor padrão).
+
+- **`type = "password"`** - Oculta os caracteres digitados com pontos ou asteriscos para senhas.
+
+- **`type = "email"`** - Aceita endereços de e-mail e faz validação básica do formato.
+
+- **`type = "tel"`** - Destinado a números de telefone.
+
+- **`type = "url"`** - Recebe endereços de sites da internet.
+
+- **`type = "number"`** - Aceita apenas números, permitindo definir os limites mínimo e máximo.
+
+- **`type = "search"`** - Formatado de forma específica para campos de busca.
+
+### Seleção e Múltipla Escolha
+
+- **`type = "checkbox"`** - Caixa de seleção que permite marcar uma ou mais opções.
+
+- **`type = "radio"`** - Botão de escolha única em um grupo com o mesmo nome.
+
+### Datas e Horas
+
+- **`type = "date"`** - Abre um calendário para escolher o dia, mês e ano.
+
+- **`type = "time"`** - Seleciona um horário específico (horas e minutos).
+
+- **`type - "datetime-local"`** - Permite escolher a data e o horário juntos.
+
+### Outros Tipos Especiais
+
+- **`type = "file"`** - Permite ao usuário enviar arquivos do seu aparelho.
+
+- **`type = "color"`** - Exibe uma paleta de cores para escolha visual.
+
+- **`type = "range"`** - Mostra uma barra deslizante para escolher números em uma escala.
+
+- **`type = "hidden"`** - Fica escondido na tela, usado para enviar dados ocultos ao servidor.
+
+### Botões de Ação
+
+- **`type = "submit"`** - Cria um botão para enviar os dados do formulário.
+
+- **`type = "reset"`** - Cria um botão para limpar todos os campos preenchidos.
+
+- **`type = "button"`** - : Um botão genérico que não faz nenhuma ação automática sem código extra.
+
+**Exemplo 1 - Cadastro Geral:**
+
+```html
+<form action="/enviar-dados" method="POST">
+    <!-- Campo de Texto Simples -->
+    <p><label for="nome">Nome Completo:</label>
+    <input type="text" id="nome" name="nome" required placeholder="Digite seu nome"></p>
+
+    <!-- Campo de E-mail (validação automática) -->
+    <p><label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required placeholder="nome@exemplo.com"></p>
+
+    <!-- Campo de Senha (caracteres ocultos) -->
+    <p><label for="senha">Senha:</label>
+    <input type="password" id="senha" name="senha" required minlength="8"></p>
+
+    <!-- Campo Numérico -->
+    <p><label for="idade">Idade:</label>
+    <input type="number" id="idade" name="idade" min="18" max="120"></p>
+
+    <!-- Botão de Envio -->
+    <button type="submit">Cadastrar</button>
+</form>
+```
+
+**Resultado:**
+
+![formulário cadastro geral](imagens/form-cadastro-geral.jpeg)
+
+**Exemplo 2 - Seleção, Datas e Arquivos**
+
+```html
+<form action="/enviar-preferencias" method="POST" enctype="multipart/form-data">
+    <!-- Seleção Única (Radio) -->
+    <p>Gênero:</p>
+    <input type="radio" id="masc" name="genero" value="M">
+    <label for="masc">Masculino</label>
+    <input type="radio" id="fem" name="genero" value="F">
+    <label for="fem">Feminino</label>
+
+    <!-- Seleção Múltipla (Checkbox) -->
+    <p>Interesses:</p>
+    <input type="checkbox" id="tecnologia" name="interesses" value="tech">
+    <label for="tecnologia">Tecnologia</label>
+    <input type="checkbox" id="esportes" name="interesses" value="esportes">
+    <label for="esportes">Esportes</label>
+
+    <!-- Campo de Data -->
+    <p><label for="nascimento">Data de Nascimento:</label>
+    <input type="date" id="nascimento" name="nascimento"></p>
+
+    <!-- Upload de Arquivo -->
+    <p><label for="curriculo">Enviar Currículo (PDF):</label>
+    <input type="file" id="curriculo" name="curriculo" accept=".pdf"></p>
+
+    <!-- Botão de Limpar -->
+    <input type="reset" value="Limpar Formulário">
+</form>
+```
+
+**Resultado:**
+
+![formulário seleção, data e arquivos](imagens/form-Seleção-Datas-Arquivos.jpeg)
+
+**Exemplo 3 - Componentes Visuais Avançados**
+
+```html
+<form action="/configuracoes" method="POST">
+  <!-- Seleção de Cor -->
+  <p><label for="cor-perfil">Cor do Perfil:</label>
+  <input type="color" id="cor-perfil" name="cor_perfil" value="#ff0000"></p>
+
+  <!-- Barra Deslizante (Range) -->
+  <p><label for="volume">Volume das Notificações:</label>
+  <input type="range" id="volume" name="volume" min="0" max="100" step="10"></p>
+
+  <!-- Campo Oculto -->
+  <input type="hidden" name="user_id" value="12345">
+</form>
+```
+
+**Resultado:**
+
+![formulário componentes visuais avançados](imagens/form-Componentes-Visuais-Avançados.jpeg)
 
