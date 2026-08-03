@@ -197,7 +197,7 @@ O elemento **`<input>`** é utilizado para criar diversos tipos de campos de ent
 
 - **`type = "radio"`** - Botão de escolha única em um grupo com o mesmo nome.
 
-### Datas e Horas
+### Data e Hora
 
 - **`type = "date"`** - Abre um calendário para escolher o dia, mês e ano.
 
@@ -222,6 +222,20 @@ O elemento **`<input>`** é utilizado para criar diversos tipos de campos de ent
 - **`type = "reset"`** - Cria um botão para limpar todos os campos preenchidos.
 
 - **`type = "button"`** - : Um botão genérico que não faz nenhuma ação automática sem código extra.
+
+### Alguns pontos sobre o elemento `<input>`
+
+- **Tag de fechamento** - O elemento **`<input>`** não possui a tag de fechamento.
+
+- **Limites** - Alguns tipos (**`number`**, **`range`**...) podem usar os atributoso **`min`** e **`max`** para definir os limites mínimo e máximo respectivamente.
+
+- **Texto de dica** - O atributo **`placeholder`** mostra uma frase cinza que some quando o usuário começa a digitar.
+
+- **Nome do campo** - : O atributo **`name`** serve para identificar o dado quando o formulário for enviado para o servidor.
+
+- **Campo obrigatório** - Para definir que um campo é de preenchimento obrigatório, inclua o atributo **`required`**.
+
+### Exemplos
 
 **Exemplo 1 - Cadastro Geral:**
 
