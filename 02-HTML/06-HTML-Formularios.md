@@ -353,4 +353,6 @@ O elemento **`<textarea>`** serve para criar uma caixa de texto com várias linh
 
 - **Tamanho** - Os atributos **`rows`** (linhas) e **`cols`** (colunas) definem o tamanho inicial da caixa na tela.
 
-- **Nome do campo** - : O atributo **`name`** serve para identificar o dado quando o formulário for enviado para o servidor.
+- **Nome do campo** - O atributo **`name`** serve para identificar o dado quando o formulário for enviado para o servidor.
+
+- **Texto padrão** - Para incluir um texto padrão, basta digitá-lo entre as tags de abertura e fechamento.
